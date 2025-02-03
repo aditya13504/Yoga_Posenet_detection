@@ -11,17 +11,17 @@ Real-time yoga pose detection and feedback system using **MediaPipe PoseNet** an
 
 # Project Structure 📂
 yoga-pose-detection/
-├── dataset/               
-├── keypoints/             
-├── average_poses/         
-├── models/                
-├── src/
-│   ├── extract_keypoints.py
-│   ├── train_mlp.py
-│   └── detect_pose.py
-├── docs/                  
-├── requirements.txt
-└── README.md
+- dataset/
+- keypoints/
+- average_poses/
+- models/
+- src/
+    - extract_keypoints.py
+    - train_mlp.py
+    - detect_pose.py
+- docs/
+- requirements.txt
+- README.md
 
 ## Installation ⚙️
 
@@ -37,13 +37,13 @@ Download a yoga pose dataset (https://www.kaggle.com/datasets/niharika41298/yoga
 Organize it into dataset/TRAIN and dataset/TEST folders with subfolders for each pose:
 
 dataset/
-├── TRAIN/
-│   ├── downdog/
-│   ├── goddess/
-│   └── ...
-└── TEST/
-    ├── downdog/
-    └── ...
+- TRAIN/
+    - downdog/
+    - goddess/
+    -  ...
+- TEST/
+    - downdog/
+    -  ...
 
 # Usage 🖥️
 - run:
@@ -56,3 +56,6 @@ PoseNet extracts 33 body keypoints from input images/video.
 Keypoints are saved as .npy files and averaged for ideal poses.
 MLP Classifier predicts the pose using keypoint coordinates.
 Feedback System compares user keypoints with ideal poses and highlights discrepancies.
+
+## Contributions 
+Contributions are always welcome.

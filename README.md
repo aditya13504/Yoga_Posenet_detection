@@ -27,7 +27,7 @@ yoga-pose-detection/
 
 ### 1. Clone the Repository
 - open cmd/powershell/vs code
-- git clone https://github.com/your-username/yoga-pose-detection.git
+- git clone https://github.com/aditya13504/Yoga_Posenet_detection.git
 - cd yoga-pose-detection
 - pip install -r requirements.txt
 

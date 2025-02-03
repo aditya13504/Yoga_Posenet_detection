@@ -23,6 +23,8 @@ yoga-pose-detection/
 - requirements.txt
 - README.md
 
+## NOTE: After installation, create a 'models' folder in the project folder.
+
 ## Installation ⚙️
 
 ### 1. Clone the Repository
